@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+
+
+/* defining colors */
+:root {
+  --primary-white: #fff;
+  --primary-red: rgb(158, 40, 10);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 'Montserrat', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Navbar */
+  /* logo */
+.logo{
+  width: 3.4rem ;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* NAV LINKS */
+nav a.nav-link {
+  font-size: 1rem;
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+nav ul li {
+  text-transform: uppercase;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-nav > li > a {
+  margin-right:0.625rem ;
+  margin-left:0.625rem ;
+  color: var(--primary-white) !important;
+  border-top :0.1875rem solid rgb(255, 255, 255,0);
+}
+
+.navbar-brand {
+  max-width: 17rem;
+  padding: 0 !important;
+
+}
+
+/* making the links focus when click or hoover */
+.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
+ 
+  border-bottom :0.1875rem solid rgb(192, 150, 14) ;
+  /* background-color: green; */
+  max-width: 6.375rem;
+}
+
+.navbar-nav > li > a:hover {
+  border-bottom :0.1875rem solid rgb(192, 150, 14) ;
+  /* background-color: green; */
+  max-width: 6.375rem;
 }

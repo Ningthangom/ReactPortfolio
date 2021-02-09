@@ -1,10 +1,12 @@
 
 import './App.css';
+import Navbar from "./components/Navbar"
 import "bootstrap/dist/css/bootstrap.min.css"
 
 function App() {
   return (
-    <h2>porfolio Project</h2>
+    
+    <Navbar/>
   );
 }
 
