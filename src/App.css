@@ -12,6 +12,9 @@ body {
 }
 
 /* Navbar */
+nav {
+  z-index: 2;
+}
   /* logo */
 .logo{
   width: 3.4rem ;
@@ -53,4 +56,85 @@ nav ul li {
   border-bottom :0.1875rem solid rgb(192, 150, 14) ;
   /* background-color: green; */
   max-width: 6.375rem;
+}
+
+
+/* header */
+
+.header-wraper {
+  position: relative;
+  background: url(slider-background-3.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+}
+
+.main-info {
+  display: flex;
+  /* this will put the content on central */
+  position:absolute;
+  top:0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  z-index: 1;
+  
+}
+
+.main-info h1 {
+  color: rgb(20, 51, 223);
+
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+
+/* typed-text */
+.typed-text {
+  color:rgb(206, 33, 182);
+  font-weight: 3rem;
+  font-size: large;
+}
+
+/* button from header */
+.contact-button{
+  border: 1px solid red;
+  text-transform: uppercase;
+  padding: 0.625em 0.75rem 0.75rem 0.75rem;
+  color:white;
+  margin: 2rem;
+}
+.contact-button:hover{
+  background-color:white;
+  color:black;
+  transition:  0.2s ease-in-out;
+}
+
+
+/* particals  */
+
+.tsparticles-canvas-el {
+  position:absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1 ;
+
+}
+
+@media(max-width: 768px) {
+  .particles-canvas {
+    display: none;
+  }
+  .main-info h1 {
+    font-size: 1.5rem !important;
+  }
+  .typed-text{
+    font-size: 1.3rem;
+  }
 }
