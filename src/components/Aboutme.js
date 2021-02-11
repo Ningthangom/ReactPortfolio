@@ -6,12 +6,12 @@ const Aboutme = () => {
         <div className="aboutme container py-5">
             <div className="row">
                 <div className="col-lg-6 col-xm-12">
-                        <div className="photo-wrap">
+                        <div className="photo-wrap mb-5">
                         <img className ="propic" src={me} alt="profile pic no valiable ...."/> 
                         </div>
                 </div>
-                <div className="col-lg-6 col-xm-12">
-                    <h1> About Me </h1>
+                <div className="col-lg-6 col-xm-12 ">
+                    <h1 className="meHeading"> About Me </h1>
                     <p>
 
                         Hello there! My name is Angelo. I am a full stack web developer. I just finised studying and excited to apply my knowledge 
