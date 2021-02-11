@@ -8,20 +8,20 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif !important;
 }
 
 /* Navbar */
-nav {
+ nav {
   z-index: 2;
-}
+} 
   /* logo */
 .logo{
   width: 3.4rem ;
-}
+}  
 
   /* NAV LINKS */
-nav a.nav-link {
+/* nav a.nav-link {
   font-size: 1rem;
   letter-spacing: 0.0375rem;
   cursor: pointer;
@@ -29,9 +29,9 @@ nav a.nav-link {
 
 nav ul li {
   text-transform: uppercase;
-}
+} */
 
-.navbar-nav > li > a {
+/* .navbar-nav > li > a {
   margin-right:0.625rem ;
   margin-left:0.625rem ;
   color: var(--primary-white) !important;
@@ -39,24 +39,33 @@ nav ul li {
 }
 
 .navbar-brand {
+  position: absolute;
+ left:1%;
   max-width: 17rem;
   padding: 0 !important;
 
 }
-
-/* making the links focus when click or hoover */
-.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
- 
-  border-bottom :0.1875rem solid rgb(192, 150, 14) ;
-  /* background-color: green; */
-  max-width: 6.375rem;
+.navbar-collapse{
+  position:absolute;
+  right: 5%;
+} */
+.nav-link{
+  color:white !important;
+  padding:1rem;
 }
 
-.navbar-nav > li > a:hover {
-  border-bottom :0.1875rem solid rgb(192, 150, 14) ;
-  /* background-color: green; */
-  max-width: 6.375rem;
+.nav-link:hover {
+  border-bottom: 0.2rem solid yellow;
 }
+
+@media(min-width:768px ) {
+  .navbaritems {
+    position: absolute;
+    right: 10%;
+    z-index: 2;
+  }
+}
+
 
 
 /* header */
@@ -66,7 +75,7 @@ nav ul li {
   background: url(slider-background-3.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 40vh;
+  height: 100vh;
 }
 
 .main-info {
@@ -97,7 +106,7 @@ nav ul li {
 
 /* typed-text */
 .typed-text {
-  color:rgb(206, 33, 182);
+  color:rgb(211, 233, 12);
   font-weight: 3rem;
   font-size: large;
 }
@@ -125,6 +134,11 @@ nav ul li {
   width: 100vw;
   z-index: 1 ;
 
+}
+/* about me component */
+.propic {
+  border-radius: 40%;
+  width: 20rem;
 }
 
 @media(max-width: 768px) {
