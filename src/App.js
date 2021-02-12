@@ -4,6 +4,8 @@ import Navbar from "./components/Navbar"
 import Header from "./components/Header"
 import Particles from "react-particles-js"
 import Aboutme from "./components/Aboutme"
+import Services from "./components/Services"
+/* import Experience from "./components/Experience" */
 import "bootstrap/dist/css/bootstrap.min.css"
 
 
@@ -35,6 +37,8 @@ function App() {
         <Navbar/>
         <Header/>
         <Aboutme/>
+        <Services/>
+     {/*    <Experience/> */}
     </>
   );
 }
