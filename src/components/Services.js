@@ -21,8 +21,10 @@ const Services = () => {
                             </p>
                         </div>
                     </div>
+            </div>
                     {/*  */}
-                    <div className="col-md-3 col-sm-6">
+            <div className="row">
+            <div className="col-md-3 col-sm-6">
                         <div className="box">
                             <div className="circle">
                                     <FontAwesomeIcon icon={faFileCode} size="2x"/>
@@ -57,7 +59,7 @@ const Services = () => {
                             </h3>
                         </div>
                     </div>
-                </div>
+            </div>
             </div>
         </div>
     )

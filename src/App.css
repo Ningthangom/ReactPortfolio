@@ -12,6 +12,11 @@ body {
   background-color:rgb(20, 19, 19) !important;
 }
 
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
 /* Navbar */
  nav {
   z-index: 2;
