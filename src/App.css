@@ -12,10 +12,6 @@ body {
   background-color:rgb(20, 19, 19) !important;
 }
 
-.flex {
-  display: flex;
-  flex-direction: column;
-}
 
 /* Navbar */
  nav {
@@ -168,7 +164,7 @@ nav ul li {
 
 
 /* Experience component */
-.experience-wrapper{
+/* .experience-wrapper{
   position:absolute;
   padding: 3.12rem;
   overflow: hidden;
@@ -210,9 +206,9 @@ color: orange;
   float: left;
   direction: rtl;
   /* direction: rtl; */
-}
+/* } */
 
-.marker {
+/* .marker {
   width: 1rem;
   height: 1rem;
   border-radius: 50%;
@@ -234,6 +230,14 @@ color: orange;
   margin-top: 0.325rem;
   color: yellow;
   
+}  */
+
+
+.services{
+  color: #fff;
+  display: flex;
+  position: absolute;
+  left: 15%;
 }
 
 @media(max-width: 768px) {
@@ -250,12 +254,18 @@ color: orange;
     color: orange;
     text-transform: uppercase;
     margin: 2rem;
+    
   }
-  .experience-wrapper::before{
+  .services{
+    display: flex;
+  }
+
+
+  /* .experience-wrapper::before{
     left: 0.5rem;
-    margin-bottom: 1.875rem;
+    margin-bottom: 1.875rem; */
     /* why this is not working */
-    background-color: green;
+    /* background-color: green;
 
   }
   .timeline-block-right{
@@ -264,6 +274,6 @@ color: orange;
   .timeline-block-left{
     float: none;
     direction: ltr;
-  }
+  } */
   
 }
