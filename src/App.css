@@ -51,35 +51,7 @@ body {
   width: 3.4rem ;
 }  
 
-  /* NAV LINKS */
-/* nav a.nav-link {
-  font-size: 1rem;
-  letter-spacing: 0.0375rem;
-  cursor: pointer;
-}
 
-nav ul li {
-  text-transform: uppercase;
-} */
-
-/* .navbar-nav > li > a {
-  margin-right:0.625rem ;
-  margin-left:0.625rem ;
-  color: var(--primary-white) !important;
-  border-top :0.1875rem solid rgb(255, 255, 255,0);
-}
-
-.navbar-brand {
-  position: absolute;
- left:1%;
-  max-width: 17rem;
-  padding: 0 !important;
-
-}
-.navbar-collapse{
-  position:absolute;
-  right: 5%;
-} */
 .nav-link{
   color:white !important;
   padding-bottom: 0.2rem;
@@ -196,76 +168,6 @@ nav ul li {
 }
 
 
-/* Experience component */
-/* .experience-wrapper{
-  position:absolute;
-  padding: 3.12rem;
-  overflow: hidden;
-
-}
-
-.experience h1 {
-text-transform: uppercase;
-color: orange;
-}
-.experience p,  h3 {
-  color: white;
-  }
-.experience-wrapper::before {
-  position: absolute;
-  content: "";
-  top: 0;
-  left:51.8%;
-  margin-left: -0.625rem;
-  width: 0.125rem;
-  height: 100%;
-  background-color:green;
-  z-index: 1;
-}
-
-.timeline-block{
-  width: calc(50% + 0.5rem);
-  display: flex;
-   
-  justify-content: space-between;
-  clear: both;
-}
-
-.timeline-block-right {
-  float: right;
-}
-
-.timeline-block-left {
-  float: left;
-  direction: rtl;
-  /* direction: rtl; */
-/* } */
-
-/* .marker {
-  width: 1rem;
-  height: 1rem;
-  border-radius: 50%;
-  border: 0.3125rem solid red;
-  background-color: orange;
-  margin-top: 0.625rem;
-  z-index: 3;
-}
-
-.timeline-content {
-  width: 95%;
-  padding: 0 0.9357rem;
-  color: grey;
-  direction:ltr;
-
-}
-
-.timeline-content h3{
-  margin-top: 0.325rem;
-  color: yellow;
-  
-}  */
-
-
 .services{
   color: #fff;
   display: flex;
@@ -307,22 +209,6 @@ color: orange;
     flex-direction:column;
   }
 
-
-  /* .experience-wrapper::before{
-    left: 0.5rem;
-    margin-bottom: 1.875rem; */
-    /* why this is not working */
-    /* background-color: green;
-
-  }
-  .timeline-block-right{
-    float:none;
-  }
-  .timeline-block-left{
-    float: none;
-    direction: ltr;
-  } */
-  
 }
 
 
@@ -330,16 +216,6 @@ color: orange;
 
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500&display=swap");
 
-/* .experience-container{
-  display: grid;
-  grid-template-columns: 300px 300px 300px;
-  grid-gap: 50px;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #706b6b;
-  font-family: 'Baloo Paaji 2', cursive;
-} */
 
 .container {
   display: grid;
@@ -477,19 +353,6 @@ color: orange;
 .social-icons a {
   display: inline-block;
 }
-
-/* .social-icons a:before {
-  transform: scale(1);
-  -ms-transform: scale(1);
-  -webkit-transform: scale(1);
-  content: " ";
-  width: 45px;
-  height: 45px;
-  border-radius: 100%;
-  display: block;
-  background: linear-gradient(45deg, #ff003c, #c648c8);
-  transition: all 265ms ease-out;
-} */
 
 .social-icons a:hover:before {
   transform: scale(0);
