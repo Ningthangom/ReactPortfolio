@@ -9,6 +9,7 @@ import Services from "./components/Services"
 import Projects from "./components/Project" 
 import Services3 from "./components/Services_3"
 import Footer from "./components/Footer"
+import Contact from "./components/Contact"
 import "bootstrap/dist/css/bootstrap.min.css"
 
 
@@ -44,6 +45,7 @@ function App() {
         <Services3/>
         <Services/>
         <Projects/>
+        <Contact/>
         <Footer/>
     </>
   );

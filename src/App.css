@@ -513,3 +513,59 @@ color: orange;
   grid-gap: 20px;
   font-size: 1rem;
 }
+
+/* contact form  */
+.container-contact input, .container-contact textarea  {
+  width: 100%;
+  box-sizing: border-box;
+  background: none;
+  resize: none;
+  border: 0;
+  color: orange;
+  border-bottom: 0.125rem solid grey;
+  margin: 0.5rem;
+  outline: 0 !important;
+  box-shadow: none !important;
+
+}
+
+.contact-btn {
+  background: none; 
+  width: 50%;
+  margin: 1rem 0 0 0;
+  border: 0.1rem solid red !important;
+}
+.contact-btn:hover {
+  background: rgb(11, 155, 221); 
+  color: black !important;
+}
+
+
+
+.contacts .container-contact {
+  padding: 4rem 0;
+
+}
+
+.contacts input:focus, .contacts textarea:focus {
+  background: transparent;
+  color: orange;
+  border-bottom: 0.125rem solid;
+}
+
+.contacts textarea {
+  height: 9.3rem !important;
+  margin: 2rem;
+}
+
+@media(max-width: 768px){
+  .contacts .container-contact {
+    padding:0 1rem;
+  }
+  .contacts p {
+    padding: 0 0.4rem;
+  }
+  .contacts textarea {
+   margin: 0 !important;
+  }
+}
